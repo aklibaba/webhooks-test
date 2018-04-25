@@ -1,2 +1,6 @@
 <?php
-echo "safe mode: " . ini_get('safe_mode');
+if (ini_get('safe_mode')) {
+  echo "safe mode: ON" ;
+} else {
+  echo "safe mode: OFF" ;
+}
