@@ -7,7 +7,7 @@
  */
 
 ?>
-
+<h1>alex</h1>
 <form action="home.php" method="get">
   <label for="name">Name</label>
   <input type="text" id="name" name="name">
